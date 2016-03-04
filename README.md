@@ -1,7 +1,6 @@
-# Ember-js-getting-started
+# ember-js-getting-started
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A barebones Ember.js app, which can easily be deployed to Heroku.
 
 ## Prerequisites
 
@@ -13,41 +12,33 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](http://www.ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
+## Running Locally
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+```sh
+$ git clone git@github.com:heroku/ember-js-getting-started.git
+$ cd ember-js-getting-started
+$ npm install
+$ bower install
+$ ember server
+```
+Your app should now be running on [localhost:4200](http://localhost:4200/).
 
-## Running / Development
+## Deploying to Heroku
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+```sh
+$ heroku create
+$ git push heroku master
+$ heroku open
+```
+or
 
-### Code Generators
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-Make use of the many generators for code, try `ember help generate` for more details
+## Documentation
 
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
+* [Getting Started with Ember.js on Heroku](link needed)
 * [ember.js](http://emberjs.com/)
 * [ember-cli](http://www.ember-cli.com/)
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
