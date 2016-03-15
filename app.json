@@ -1,0 +1,11 @@
+{
+  "name": "Ember.js Getting Started",
+  "description": "A sample Ember.js app deployed to Heroku",
+  "repository": "https://github.com/heroku/ember-js-getting-started",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["ember.js", "static"],
+  "image": "heroku/emberjs",
+  "buildpacks": [
+    { "url": "https://codon-buildpacks.s3.amazonaws.com/buildpacks/hone/emberjs.tgz" }
+  ]
+}
