@@ -2,6 +2,8 @@
 
 A barebones Ember.js app, which can easily be deployed to Heroku.
 
+This app is deployed as a static app, if you would like to try a one click deploy of a FastBoot app check out [this branch](https://github.com/heroku/ember-js-getting-started/tree/fastboot)
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
@@ -26,7 +28,7 @@ Your app should now be running on [localhost:4200](http://localhost:4200/).
 ## Deploying to Heroku
 
 ```sh
-$ heroku create
+$ heroku create --buildpack https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/emberjs.tgz
 $ git push heroku master
 $ heroku open
 ```
