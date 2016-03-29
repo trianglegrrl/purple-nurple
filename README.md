@@ -38,7 +38,6 @@ or
 
 ## Documentation
 
-* [Getting Started with Ember.js on Heroku](link needed)
 * [ember.js](http://emberjs.com/)
 * [ember-cli](http://www.ember-cli.com/)
 * Development Browser Extensions
