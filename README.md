@@ -2,7 +2,7 @@
 
 A barebones Ember.js app, which can easily be deployed to Heroku.
 
-This app is deployed as a static app, if you would like to try a one click deploy of a FastBoot app check out [this branch](https://github.com/heroku/ember-js-getting-started/tree/fastboot).
+**This app is deployed as a static app, if you would like to try a one click deploy of a FastBoot app check out [this branch](https://github.com/heroku/ember-js-getting-started/tree/fastboot).**
 
 ## Prerequisites
 
