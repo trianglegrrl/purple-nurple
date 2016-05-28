@@ -1,7 +1,7 @@
 {
-  "name": "ember-js-getting-started",
+  "name": "purple-nurple",
   "version": "0.0.0",
-  "description": "Small description for ember-js-getting-started goes here",
+  "description": "US Election Tracker",
   "private": true,
   "directories": {
     "doc": "doc",
