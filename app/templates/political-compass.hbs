@@ -1,2 +1,11 @@
 <h1>Graph</h1>
-{{dynamic-high-charts mode=chartMode content=series chartOptions=chartOptions theme=theme}}
+{{dynamic-high-charts mode=chartMode content=chartData chartOptions=chartOptions theme=theme}}
+
+<ul>
+{{#each model as |person|}}
+  <li>
+    {{input type="checkbox" name="display" checked=person.display}}
+    {{person.name}}
+  </li>
+{{/each}}
+</ul>
