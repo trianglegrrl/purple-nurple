@@ -1,1 +1,15 @@
-{{outlet}}
+{{#flex-grid}}
+	{{#flex-grid-row}}
+		{{#flex-grid-item columns=12}}
+			{{dynamic-high-charts mode=chartMode content=model chartOptions=chartOptions theme=theme}}
+		{{/flex-grid-item}}
+	{{/flex-grid-row}}
+	{{#flex-grid-row}}
+		{{#flex-grid-item columns=12}}
+			<div>
+				Source: fivethirtyeight
+			</div>
+		{{/flex-grid-item}}
+	{{/flex-grid-row}}
+{{/flex-grid}}
+
