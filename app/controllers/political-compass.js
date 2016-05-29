@@ -80,6 +80,11 @@ export default Controller.extend({
     },
     plotOptions: {
       scatter: {
+        dataLabels: {
+          enabled: true,
+          allowOverlap: true,
+          format: "{series.name}"
+        },
         marker: {
           radius: 7,
           states: {
