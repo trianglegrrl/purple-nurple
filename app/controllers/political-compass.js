@@ -27,9 +27,6 @@ export default Controller.extend({
     title: {
       text: 'Political Compass Ratings of Political Candidates'
     },
-    subtitle: {
-      text: 'Source: https://www.politicalcompass.org'
-    },
     xAxis: {
       plotLines: [{
         color: 'black', // Color value

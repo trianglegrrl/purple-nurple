@@ -34,35 +34,35 @@ Person.reopenClass({
     role: 'canadian'
   }, {
     id:4,
-    name: 'Lachlan (2016)',
+    name: 'Lachlan',
     color: 'rgba(255, 105, 0, 1)',
     values: [[-5.38, -6.1]],
     display: true,
     role: 'friends'
   }, {
     id:5,
-    name: 'Alastair (2016)',
+    name: 'Alastair',
     color: 'rgba(255, 0, 180, 1)',
     values: [[-7.5, -7.59]],
     display: true,
     role: 'friends'
   }, {
     id:6,
-    name: 'Alaina (2016)',
+    name: 'Alaina',
     color: 'rgba(255, 105, 180, 1)',
     values: [[-5.38, -7.23]],
     display: true,
     role: 'friends'
   }, {
     id:7,
-    name: 'Krista (2016)',
+    name: 'Krista',
     color: 'rgba(148,0,211, 1)',
     values: [[-6.5, -6.77]],
     display: true,
     role: 'friends'
   }, {
     id:8,
-    name: 'Cynthia (2016)',
+    name: 'Cynthia',
     color: 'rgba(34,139,34, 1)',
     values: [[-4.2, -6.5]],
     display: true,
