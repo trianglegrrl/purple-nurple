@@ -1,10 +1,17 @@
-{{dynamic-high-charts mode=chartMode content=chartData chartOptions=chartOptions theme=theme}}
+{{#flex-grid}}
+	{{#flex-grid-row}}
+		{{#flex-grid-item columns=12}}
+			{{dynamic-high-charts mode=chartMode content=chartData chartOptions=chartOptions theme=theme}}
+		{{/flex-grid-item}}
+	{{/flex-grid-row}}
+	{{#flex-grid-row}}
+		{{#flex-grid-item columns=12}}
+			<div>
+				Source:
+				<a href="http://www.politicalcompass.org/">http://www.politicalcompass.org/</a> |
+				<a href="http://www.politicalcompass.org/test">Take the test yourself!</a>
+			</div>
+		{{/flex-grid-item}}
+	{{/flex-grid-row}}
+{{/flex-grid}}
 
-<ul class="PoliticalCompassPeopleList">
-{{#each model as |person|}}
-  <li>
-    {{input type="checkbox" name="display" checked=person.display}}
-    {{person.name}}
-  </li>
-{{/each}}
-</ul>

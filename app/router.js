@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('political-compass');
+  this.route('electoral-map');
 });
 
 export default Router;

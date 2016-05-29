@@ -21,11 +21,12 @@ export default Controller.extend({
 
   chartOptions: {
     chart: {
-      type: 'scatter',
-      zoomType: 'xy'
+			type: 'scatter',
+			zoomType: 'xy',
+			marginRight: 180
     },
     title: {
-      text: 'Political Compass Ratings of Political Candidates'
+      text: 'Political Compass Ratings'
     },
     xAxis: {
       plotLines: [{
@@ -60,22 +61,32 @@ export default Controller.extend({
       max: 10,
     },
     legend:{
-      layout: 'horizontal',
-      align: 'left',
-      width: 300,
       itemWidth:150,
       itemStyle: {
         "lineHeight": "1.5em"
       },
       verticalAlign: 'top',
-      x: 70,
-      y:60,
-      floating: true,
-      backgroundColor: '#ffffff',
-      borderWidth: 1,
+			floating: true,
+			x: 30,
+			y: 30,
+			title: {
+				text: 'Click to toggle',
+				marginBottom: '0.5em'
+			},
+			align: 'right',
+			verticalAlign: 'top',
+			layout: 'vertical',
+			floating: true,
+			draggable: true,
+			backgroundColor: '#ffffff',
       borderRadius: 3,
     },
     plotOptions: {
+      series: {
+        animation: {
+          duration: 2000,
+        }
+      },
       scatter: {
         dataLabels: {
           enabled: true,
