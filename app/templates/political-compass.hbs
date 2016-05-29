@@ -1,7 +1,6 @@
-<h1>Graph</h1>
 {{dynamic-high-charts mode=chartMode content=chartData chartOptions=chartOptions theme=theme}}
 
-<ul>
+<ul class="PoliticalCompassPeopleList">
 {{#each model as |person|}}
   <li>
     {{input type="checkbox" name="display" checked=person.display}}

@@ -1,6 +1,6 @@
 .jumbotron {
-  background: #532F8C;
-  color: white;
+  background: #ffffff;
+  color: #222;
   padding-bottom: 80px;
 }
 .jumbotron .btn-primary {
@@ -33,4 +33,11 @@
 }
 .jumbotron .lang-logo img {
   max-width: 100%;
+}
+
+.PoliticalCompassPeopleList {
+  text-align: left;
+  columns: 4;
+  -webkit-columns: 4;
+  -moz-columns: 4;
 }
