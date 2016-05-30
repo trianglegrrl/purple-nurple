@@ -74,9 +74,7 @@ export default Controller.extend({
 				marginBottom: '0.5em'
 			},
 			align: 'right',
-			verticalAlign: 'top',
 			layout: 'vertical',
-			floating: true,
 			draggable: true,
 			backgroundColor: '#ffffff',
       borderRadius: 3,
